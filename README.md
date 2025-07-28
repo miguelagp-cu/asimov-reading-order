@@ -1,10 +1,12 @@
 # 📚 Orden de Lectura Cronológico de Isaac Asimov 🚀  
+
 **Sitio web interactivo con seguimiento de progreso para explorar el universo de Asimov en orden cronológico**
 
 [![GitHub Pages](https://img.shields.io/badge/Ver-Sitio_en_Vivo-success?style=for-the-badge&logo=github)](https://miguelagp-cu.github.io/asimov-reading-order/)
 ![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)
 
 ## 🌟 Características
+
 - ✅ Lista completa de 17 libros en orden cronológico interno
 - 📊 Barra de progreso interactiva con porcentaje de lectura
 - 💾 Guardado local usando localStorage (persiste al cerrar el navegador)
@@ -13,12 +15,14 @@
 - 📱 Diseño responsive para móviles y escritorio
 
 ## 🛠 Tecnologías utilizadas
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=github&logoColor=white)
 
 ## 🚀 Cómo usar
+
 1. Visita el sitio: [https://miguelagp-cu.github.io/asimov-reading-order/](https://miguelagp-cu.github.io/asimov-reading-order/)
 2. Comienza a leer los libros en el orden propuesto
 3. Marca ✅ los libros que has leído usando los checkboxes
@@ -26,11 +30,13 @@
 5. Haz clic en "Descargar EPUB/PDF" para buscar versiones digitales
 
 ## 💻 Instalación local
+
 ```bash
 git clone https://github.com/miguelagp-cu/asimov-reading-order.git
 cd asimov-reading-order
 # Abre index.html en tu navegador
 ```
+
 📚 **Orden de lectura completo**
 
 1. 🕰️ *El fin de la Eternidad* (1955)  
@@ -52,12 +58,14 @@ cd asimov-reading-order
 17. 🌍 *Fundación y Tierra* (1986)  
 
 🖼️ **Capturas de pantalla**  
+
 - Vista de Escritorio  
   [https://screenshots/desktop.png](https://screenshots/desktop.png)  
 - Vista Móvil  
   [https://screenshots/mobile.png](https://screenshots/mobile.png)  
 
 🤝 **Contribuir**  
+
 - Haz fork del repositorio  
 - Crea una rama: `git checkout -b mejora/funcion`  
 - Haz tus cambios: `git commit -m 'Añade nueva función'`  
@@ -68,6 +76,7 @@ cd asimov-reading-order
 MIT License - ver [LICENSE](https://LICENSE) para detalles  
 
 🌌 **Créditos**  
+
 - Orden basado en la cronología interna del universo de Asimov  
 - Diseño inspirado en la temática espacial de la Fundación  
 - Iconos de [Shields.io](https://shields.io)  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden Cronológico de Isaac Asimov</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Orden Cronológico de Isaac Asimov</h1>
+            <p class="subtitle">Sigue el orden interno del universo de Asimov para experimentar la historia galáctica de la humanidad tal como el autor la concibió. Comienza con "El fin de la Eternidad" y viaja a través de milenios de historia futura.</p>
+        </header>
+        
+        <div class="progress-container">
+            <h2>Tu progreso de lectura</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <p class="progress-text" id="progress-text">0 de 17 libros leídos (0%)</p>
+        </div>
+        
+        <table class="books-table">
+            <thead>
+                <tr>
+                    <th class="order-col">Orden</th>
+                    <th class="title-col">Título</th>
+                    <th class="year-col">Año</th>
+                    <th class="link-col">Enlaces</th>
+                    <th class="read-col">Leído</th>
+                </tr>
+            </thead>
+            <tbody id="books-list">
+                <!-- Los libros se cargarán con JavaScript -->
+            </tbody>
+        </table>
+        
+        <footer>
+            <p>Diseñado para fans de la ciencia ficción | Los enlaces son a recursos públicos disponibles</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

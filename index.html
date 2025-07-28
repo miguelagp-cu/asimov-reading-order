@@ -5,39 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orden Cronológico de Isaac Asimov</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Orden Cronológico de Isaac Asimov</h1>
-            <p class="subtitle">Sigue el orden interno del universo de Asimov para experimentar la historia galáctica de la humanidad tal como el autor la concibió. Comienza con "El fin de la Eternidad" y viaja a través de milenios de historia futura.</p>
+            <div class="header-content">
+                <div>
+                    <h1>Orden Cronológico de Isaac Asimov</h1>
+                    <p class="subtitle">Sigue el orden interno del universo de Asimov para experimentar la historia galáctica de la humanidad</p>
+                </div>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
         </header>
         
-        <div class="progress-container">
-            <h2>Tu progreso de lectura</h2>
-            <div class="progress-bar">
-                <div class="progress-fill" id="progress-fill"></div>
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Tu progreso</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="progress-text" id="progress-text">0 de 17 libros leídos (0%)</p>
             </div>
-            <p class="progress-text" id="progress-text">0 de 17 libros leídos (0%)</p>
+            
+            <div class="stat-card">
+                <h3>Sagas completadas</h3>
+                <div class="sagas-progress">
+                    <div class="saga" data-saga="eternidad">
+                        <span>El fin de la Eternidad</span>
+                        <div class="saga-progress-bar">
+                            <div class="saga-progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="saga" data-saga="robots">
+                        <span>Saga de Robots</span>
+                        <div class="saga-progress-bar">
+                            <div class="saga-progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="saga" data-saga="imperio">
+                        <span>Saga del Imperio Galáctico</span>
+                        <div class="saga-progress-bar">
+                            <div class="saga-progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="saga" data-saga="fundacion">
+                        <span>Saga de la Fundación</span>
+                        <div class="saga-progress-bar">
+                            <div class="saga-progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <table class="books-table">
-            <thead>
-                <tr>
-                    <th class="order-col">Orden</th>
-                    <th class="title-col">Título</th>
-                    <th class="year-col">Año</th>
-                    <th class="link-col">Enlaces</th>
-                    <th class="read-col">Leído</th>
-                </tr>
-            </thead>
-            <tbody id="books-list">
-                <!-- Los libros se cargarán con JavaScript -->
-            </tbody>
-        </table>
+        <div class="controls">
+            <button id="reset-progress" class="btn">
+                <i class="fas fa-undo"></i> Reiniciar Progreso
+            </button>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="eternidad">El fin de la Eternidad</button>
+                <button class="filter-btn" data-filter="robots">Robots</button>
+                <button class="filter-btn" data-filter="imperio">Imperio Galáctico</button>
+                <button class="filter-btn" data-filter="fundacion">Fundación</button>
+            </div>
+        </div>
+        
+        <div class="books-grid" id="books-grid">
+            <!-- Los libros se cargarán con JavaScript -->
+        </div>
         
         <footer>
             <p>Diseñado para fans de la ciencia ficción | Los enlaces son a recursos públicos disponibles</p>
+            <p>© 2023 Orden de Lectura de Asimov</p>
         </footer>
     </div>
 

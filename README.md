@@ -70,7 +70,7 @@ cd asimov-reading-order
 - Abre un Pull Request  
 
 📜 **Licencia**  
-MIT License - ver [LICENSE](https://LICENSE) para detalles  
+MIT License - ver [LICENSE](LICENSE) para detalles  
 
 🌌 **Créditos**  
 

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1955,
             saga: "Precuela",
             paginas: "192 páginas",
-            isbn: "9788435015476",
+            coverUrl: "https://covers.openlibrary.org/b/id/240726-M.jpg",
             sinopsis: "Esta novela explora los viajes en el tiempo y el control de la historia humana. Andrew Harlan es un Eterno, un técnico que trabaja en la Eternidad, una organización fuera del tiempo que monitorea y corrige la realidad para minimizar el sufrimiento humano. La trama se complica cuando Harlan se enamora de una mujer de una época no permitida, desafiando las reglas fundamentales de su sociedad."
         },
         { 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1950,
             saga: "Robots",
             paginas: "253 páginas",
-            isbn: "9788420664375",
+            coverUrl: "https://covers.openlibrary.org/b/id/8331920-M.jpg",
             sinopsis: "Una colección de nueve relatos que exploran la relación entre humanos y robots a través de las Tres Leyes de la Robótica. La Dra. Susan Calvin, robopsicóloga de U.S. Robots and Mechanical Men, narra la evolución de los robots a lo largo de su carrera, desde simples máquinas hasta seres casi humanos que plantean cuestiones éticas complejas."
         },
         { 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1954,
             saga: "Robots",
             paginas: "224 páginas",
-            isbn: "9788466657662",
+            coverUrl: "https://covers.openlibrary.org/b/id/105878-M.jpg",
             sinopsis: "En un futuro donde la humanidad vive en ciudades cubiertas por cúpulas, el detective Elijah Baley investiga el asesinato de un destacado espacialista. Para resolver el caso, debe trabajar con R. Daneel Olivaw, un robot con apariencia humana. Juntos exploran las tensiones entre los habitantes de la Tierra y los espaciales, mientras descubren una conspiración que amenaza a ambos grupos."
         },
         { 
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1957,
             saga: "Robots",
             paginas: "231 páginas",
-            isbn: "9788466657679",
+            coverUrl: "https://covers.openlibrary.org/b/id/105877-M.jpg",
             sinopsis: "El detective Elijah Baley es enviado al planeta Solaria para investigar un asesinato. En este mundo donde los humanos viven aislados y dependen completamente de robots, Baley debe enfrentar sus miedos a espacios abiertos y adaptarse a una cultura donde el contacto físico es tabú. Con la ayuda de R. Daneel Olivaw, descubre que el crimen está relacionado con la estructura social de Solaria."
         },
         { 
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1983,
             saga: "Robots",
             paginas: "433 páginas",
-            isbn: "9788466657686",
+            coverUrl: "https://covers.openlibrary.org/b/id/105879-M.jpg",
             sinopsis: "En el planeta Aurora, el robotista más importante ha sido mentalmente incapacitado y su robot humanoide, Jander Panell, ha sido destruido. Elijah Baley es llamado para resolver el caso que podría desencadenar un conflicto interestelar. Con ayuda de Daneel, Baley descubre una conspiración que amenaza el futuro de la expansión humana en la galaxia."
         },
         { 
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1985,
             saga: "Robots",
             paginas: "383 páginas",
-            isbn: "9788466657693",
+            coverUrl: "https://covers.openlibrary.org/b/id/105880-M.jpg",
             sinopsis: "Dos siglos después de los eventos de 'Los robots del amanecer', Daneel Olivaw y Giskard Reventlov desarrollan la Ley Cero de la Robótica para proteger a la humanidad como un todo. Cuando una figura del pasado amenaza a la Tierra con radiación, los robots deben tomar decisiones que afectarán el futuro de la humanidad y su expansión por la galaxia."
         },
         { 
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1951,
             saga: "Imperio Galáctico",
             paginas: "192 páginas",
-            isbn: "9788466657716",
+            coverUrl: "https://covers.openlibrary.org/b/id/105881-M.jpg",
             sinopsis: "Biron Farrill, hijo de un gobernador ejecutado, escapa a la Tierra buscando refugio. Descubre que su padre fue asesinado por oponerse a los planes tiránicos del Director de Rhodia. Con la ayuda de un misterioso personaje y una princesa, Biron se embarca en una misión para encontrar un planeta rebelde que podría desafiar al Imperio Galáctico."
         },
         { 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1952,
             saga: "Imperio Galáctico",
             paginas: "188 páginas",
-            isbn: "9788466657723",
+            coverUrl: "https://covers.openlibrary.org/b/id/105883-M.jpg",
             sinopsis: "Joseph Schwartz, un jubilado de 62 años, es transportado accidentalmente a un futuro lejano donde la Tierra es un planeta subyugado y olvidado. En este mundo, se encuentra con un científico que busca salvar la humanidad de una inminente crisis alimentaria. Schwartz, dotado de habilidades mentales extraordinarias, se convierte en pieza clave de la supervivencia terrestre."
         },
         { 
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1950,
             saga: "Imperio Galáctico",
             paginas: "254 páginas",
-            isbn: "9788466657709",
+            coverUrl: "https://covers.openlibrary.org/b/id/105884-M.jpg",
             sinopsis: "Joseph Schwartz, un sastre retirado de Chicago, es transportado accidentalmente a un futuro lejano donde la Tierra es un planeta subyugado y olvidado. En este mundo, se encuentra con un científico que busca salvar la humanidad de una inminente crisis alimentaria. Schwartz, dotado de habilidades mentales extraordinarias, se convierte en pieza clave de la supervivencia terrestre."
         },
         { 
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1952,
             saga: "Imperio Galáctico",
             paginas: "191 páginas",
-            isbn: "9788466657730",
+            coverUrl: "https://covers.openlibrary.org/b/id/105885-M.jpg",
             sinopsis: "Rik, un hombre sin memoria, descubre que posee conocimientos cruciales sobre una inminente catástrofe que amenaza al planeta Florina. Junto con la esposa de un funcionario, debe recuperar su memoria mientras evita a poderosos enemigos que quieren silenciarlo. Su conocimiento podría cambiar el equilibrio de poder en la galaxia."
         },
         { 
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1988,
             saga: "Fundación",
             paginas: "403 páginas",
-            isbn: "9788466657747",
+            coverUrl: "https://covers.openlibrary.org/b/id/105886-M.jpg",
             sinopsis: "En el planeta Trantor, centro del Imperio Galáctico, el joven matemático Hari Seldon presenta su teoría de la psicohistoria, capaz de predecir el futuro de grandes poblaciones. Cuando el emperador se entera de su trabajo, Seldon se convierte en un fugitivo. Con la ayuda de diversos aliados, comienza un viaje que sentará las bases para la Fundación."
         },
         { 
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1993,
             saga: "Fundación",
             paginas: "417 páginas",
-            isbn: "9788466657754",
+            coverUrl: "https://covers.openlibrary.org/b/id/105887-M.jpg",
             sinopsis: "Hari Seldon desarrolla la psicohistoria mientras enfrenta intrigas políticas en Trantor. Tras la muerte de su esposa, Seldon lucha por perfeccionar su ciencia mientras el Imperio Galáctico comienza su decadencia. La historia sigue sus esfuerzos para establecer la Fundación, último refugio del conocimiento humano ante el colapso inminente."
         },
         { 
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1951,
             saga: "Fundación",
             paginas: "255 páginas",
-            isbn: "9788466657761",
+            coverUrl: "https://covers.openlibrary.org/b/id/105888-M.jpg",
             sinopsis: "En el planeta Términus, los científicos de la Fundación enfrentan múltiples crisis utilizando la ciencia de la psicohistoria desarrollada por Hari Seldon. A través de generaciones, lidian con gobernantes beligerantes, religiones tecnológicas y estados mercantiles, siempre guiados por las predicciones de Seldon sobre el futuro de la galaxia."
         },
         { 
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1952,
             saga: "Fundación",
             paginas: "247 páginas",
-            isbn: "9788466657778",
+            coverUrl: "https://covers.openlibrary.org/b/id/105889-M.jpg",
             sinopsis: "La Fundación enfrenta su mayor desafío: Bel Riose, el último gran general del Imperio Galáctico. Posteriormente, aparece el Mulo, un mutante con poderes mentales que amenaza con destruir el Plan Seldon. Los personajes deben enfrentar una amenaza impredecible que desafía todas las predicciones psicohistóricas."
         },
         { 
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1953,
             saga: "Fundación",
             paginas: "256 páginas",
-            isbn: "9788466657785",
+            coverUrl: "https://covers.openlibrary.org/b/id/105890-M.jpg",
             sinopsis: "Tras la conquista del Mulo, la Fundación intenta reconstruirse mientras busca la misteriosa Segunda Fundación, establecida por Hari Seldon para monitorear su plan. La búsqueda se convierte en una batalla de estrategias entre quienes quieren preservar el plan y quienes buscan destruirlo, con la galaxia como tablero de ajedrez."
         },
         { 
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1982,
             saga: "Fundación",
             paginas: "432 páginas",
-            isbn: "9788466657792",
+            coverUrl: "https://covers.openlibrary.org/b/id/105891-M.jpg",
             sinopsis: "Siglos después de la Fundación, el alcalde de Términus, Harla Branno, y el consejero Golan Trevize se enfrentan por el futuro de la Fundación. Trevize es exiliado en una misión para encontrar la legendaria Tierra, acompañado por el historiador Janov Pelorat. Su viaje los lleva a descubrir secretos sobre los orígenes de la humanidad."
         },
         { 
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1986,
             saga: "Fundación",
             paginas: "501 páginas",
-            isbn: "9788466657808",
+            coverUrl: "https://covers.openlibrary.org/b/id/105892-M.jpg",
             sinopsis: "Golan Trevize continúa su búsqueda de la Tierra, convencido de que allí encontrará respuestas sobre el futuro de la humanidad. Junto a Janov Pelorat y Bliss, visitan múltiples mundos siguiendo pistas sobre los orígenes humanos. Su viaje culmina en un descubrimiento que conecta todas las sagas de Asimov y redefine el futuro galáctico."
         }
     ];
@@ -168,6 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalSaga = document.getElementById('modal-saga');
     const modalPages = document.getElementById('modal-pages');
     const modalSynopsis = document.getElementById('modal-synopsis');
+    const themeToggle = document.getElementById('theme-toggle');
     
     // Crear estrellas de fondo
     function createStars() {
@@ -221,16 +222,37 @@ document.addEventListener('DOMContentLoaded', function() {
         progressText.textContent = `${readCount} de ${totalBooks} libros leídos (${Math.round(percentage)}%)`;
     }
     
-    // Obtener URL de portada usando Open Library API
-    function getCoverUrl(isbn, size = "M") {
-        return `https://covers.openlibrary.org/b/isbn/${isbn}-${size}.jpg`;
+    // Verificar si una imagen existe
+    function checkImageExists(url, callback) {
+        const img = new Image();
+        img.onload = function() { callback(true); };
+        img.onerror = function() { callback(false); };
+        img.src = url;
     }
     
     // Abrir modal con detalles del libro
     function openBookModal(book) {
         modalTitle.textContent = book.titulo;
         modalSubtitle.textContent = `Saga ${book.saga} - ${book.año}`;
-        modalCover.style.backgroundImage = `url('${getCoverUrl(book.isbn, "L")}')`;
+        
+        // Limpiar el contenido previo del modal-cover
+        modalCover.innerHTML = '';
+        
+        // Verificar si la imagen de portada existe
+        if (book.coverUrl) {
+            checkImageExists(book.coverUrl, function(exists) {
+                if (exists) {
+                    modalCover.style.backgroundImage = `url('${book.coverUrl}')`;
+                    modalCover.style.backgroundSize = 'cover';
+                    modalCover.style.backgroundPosition = 'center';
+                } else {
+                    showCoverPlaceholder(modalCover, "Portada no disponible");
+                }
+            });
+        } else {
+            showCoverPlaceholder(modalCover, "Portada no disponible");
+        }
+        
         modalOrder.textContent = book.orden;
         modalYear.textContent = book.año;
         modalSaga.textContent = book.saga;
@@ -241,10 +263,45 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.style.overflow = 'hidden';
     }
     
+    // Mostrar placeholder para portadas
+    function showCoverPlaceholder(element, message) {
+        element.style.backgroundImage = 'none';
+        element.innerHTML = `
+            <div class="placeholder">
+                <i class="fas fa-book"></i>
+                <div class="placeholder-text">${message}</div>
+            </div>
+        `;
+    }
+    
     // Cerrar modal
     function closeModal() {
         modal.classList.remove('active');
         document.body.style.overflow = 'auto';
+    }
+    
+    // Cargar tema del localStorage
+    function loadTheme() {
+        const savedTheme = localStorage.getItem('asimovTheme');
+        if (savedTheme === 'light') {
+            document.body.classList.add('light-mode');
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+    }
+    
+    // Cambiar tema
+    function toggleTheme() {
+        document.body.classList.toggle('light-mode');
+        
+        if (document.body.classList.contains('light-mode')) {
+            localStorage.setItem('asimovTheme', 'light');
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            localStorage.setItem('asimovTheme', 'dark');
+            themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+        }
     }
     
     // Renderizar la lista de libros
@@ -256,10 +313,35 @@ document.addEventListener('DOMContentLoaded', function() {
             const bookCard = document.createElement('div');
             bookCard.className = 'book-card';
             
+            // Verificar si la imagen de portada existe
+            let coverContent = '';
+            if (libro.coverUrl) {
+                checkImageExists(libro.coverUrl, function(exists) {
+                    const coverElement = bookCard.querySelector('.book-cover');
+                    if (exists) {
+                        coverElement.style.backgroundImage = `url('${libro.coverUrl}')`;
+                        coverElement.style.backgroundSize = 'cover';
+                        coverElement.style.backgroundPosition = 'center';
+                    } else {
+                        showCoverPlaceholder(coverElement, "Portada no disponible");
+                    }
+                });
+                
+                coverContent = `<div class="book-cover"></div>`;
+            } else {
+                coverContent = `
+                    <div class="book-cover">
+                        <div class="placeholder">
+                            <i class="fas fa-book"></i>
+                            <div class="placeholder-text">Portada no disponible</div>
+                        </div>
+                    </div>
+                `;
+            }
+            
             bookCard.innerHTML = `
-                <div class="book-cover" style="background-image: url('${getCoverUrl(libro.isbn)}')">
-                    <div class="book-order">${libro.orden}</div>
-                </div>
+                ${coverContent}
+                <div class="book-order">${libro.orden}</div>
                 <div class="book-info">
                     <h3 class="book-title">${libro.titulo}</h3>
                     <div class="book-year">${libro.año} | ${libro.saga}</div>
@@ -311,8 +393,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
+    // Toggle del tema
+    themeToggle.addEventListener('click', toggleTheme);
+    
     // Inicializar
     createStars();
+    loadTheme();
     renderBooks();
     updateProgress();
 });

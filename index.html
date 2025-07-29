@@ -10,68 +10,16 @@
 <body>
     <div class="container">
         <header>
-            <div class="header-content">
-                <div>
-                    <h1>Orden Cronológico de Isaac Asimov</h1>
-                    <p class="subtitle">Sigue el orden interno del universo de Asimov para experimentar la historia galáctica de la humanidad</p>
-                </div>
-                <button id="theme-toggle" class="theme-toggle">
-                    <i class="fas fa-moon"></i>
-                </button>
-            </div>
+            <h1>Orden Cronológico de Isaac Asimov</h1>
+            <p class="subtitle">Sigue el orden interno del universo de Asimov para experimentar la historia galáctica de la humanidad</p>
         </header>
         
-        <div class="stats-container">
-            <div class="stat-card">
-                <h3>Tu progreso</h3>
-                <div class="progress-bar">
-                    <div class="progress-fill" id="progress-fill"></div>
-                </div>
-                <p class="progress-text" id="progress-text">0 de 17 libros leídos (0%)</p>
+        <div class="progress-container">
+            <h2>Tu progreso de lectura</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
             </div>
-            
-            <div class="stat-card">
-                <h3>Sagas completadas</h3>
-                <div class="sagas-progress">
-                    <div class="saga" data-saga="eternidad">
-                        <span>El fin de la Eternidad</span>
-                        <div class="saga-progress-bar">
-                            <div class="saga-progress-fill"></div>
-                        </div>
-                    </div>
-                    <div class="saga" data-saga="robots">
-                        <span>Saga de Robots</span>
-                        <div class="saga-progress-bar">
-                            <div class="saga-progress-fill"></div>
-                        </div>
-                    </div>
-                    <div class="saga" data-saga="imperio">
-                        <span>Saga del Imperio Galáctico</span>
-                        <div class="saga-progress-bar">
-                            <div class="saga-progress-fill"></div>
-                        </div>
-                    </div>
-                    <div class="saga" data-saga="fundacion">
-                        <span>Saga de la Fundación</span>
-                        <div class="saga-progress-bar">
-                            <div class="saga-progress-fill"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="controls">
-            <button id="reset-progress" class="btn">
-                <i class="fas fa-undo"></i> Reiniciar Progreso
-            </button>
-            <div class="filters">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="eternidad">El fin de la Eternidad</button>
-                <button class="filter-btn" data-filter="robots">Robots</button>
-                <button class="filter-btn" data-filter="imperio">Imperio Galáctico</button>
-                <button class="filter-btn" data-filter="fundacion">Fundación</button>
-            </div>
+            <p class="progress-text" id="progress-text">0 de 17 libros leídos (0%)</p>
         </div>
         
         <div class="books-grid" id="books-grid">
@@ -80,8 +28,47 @@
         
         <footer>
             <p>Diseñado para fans de la ciencia ficción | Los enlaces son a recursos públicos disponibles</p>
-            <p>© 2025 Orden de Lectura de Asimov</p>
         </footer>
+    </div>
+
+    <!-- Modal para detalles del libro -->
+    <div class="modal" id="book-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <h2 class="modal-title" id="modal-title"></h2>
+                <p class="modal-subtitle" id="modal-subtitle"></p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-cover" id="modal-cover"></div>
+                <div class="modal-info">
+                    <div class="modal-meta">
+                        <div class="meta-item">
+                            <div class="meta-label">Orden de lectura</div>
+                            <div class="meta-value" id="modal-order"></div>
+                        </div>
+                        <div class="meta-item">
+                            <div class="meta-label">Año de publicación</div>
+                            <div class="meta-value" id="modal-year"></div>
+                        </div>
+                        <div class="meta-item">
+                            <div class="meta-label">Saga</div>
+                            <div class="meta-value" id="modal-saga"></div>
+                        </div>
+                        <div class="meta-item">
+                            <div class="meta-label">Páginas</div>
+                            <div class="modal-value" id="modal-pages"></div>
+                        </div>
+                    </div>
+                    <div class="modal-synopsis">
+                        <h3>Sinopsis</h3>
+                        <p id="modal-synopsis"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

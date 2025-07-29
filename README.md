@@ -76,7 +76,8 @@ MIT License - ver [LICENSE](LICENSE) para detalles
 
 - Orden basado en la cronología interna del universo de Asimov  
 - Diseño inspirado en la temática espacial de la Fundación  
-- Iconos de [Shields.io](https://shields.io)  
+- Iconos de [Shields.io](https://shields.io)
+- Portadas de [OpenLibrary](https://openlibrary.org)
 
 ✨ **Explora el universo de Asimov en el orden original** ✨  
 [¡Comienza tu viaje literario ahora!](https://miguelagp-cu.github.io/asimov-reading-order/)

@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             año: 1983,
             saga: "Robots",
             paginas: "433 páginas",
-            coverUrl: "5-amanecer.jpg",
+            coverUrl: "images/5-amanecer.jpg",
             sinopsis: "En el planeta Aurora, el robotista más importante ha sido mentalmente incapacitado y su robot humanoide, Jander Panell, ha sido destruido. Elijah Baley es llamado para resolver el caso que podría desencadenar un conflicto interestelar. Con ayuda de Daneel, Baley descubre una conspiración que amenaza el futuro de la expansión humana en la galaxia."
         },
         { 

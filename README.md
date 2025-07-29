@@ -59,7 +59,8 @@ cd asimov-reading-order
 
 🖼️ **Capturas de pantalla**  
 
-[![Vista previa](images/screenshot-thumb.png)](images/screenshot.png)
+| [![Vista previa 1](images/screenshot-thumb-1.png)](images/screenshot-1.png) | [![Vista previa 2](images/screenshot-thumb-2.png)](images/screenshot-2.png) |
+|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
 
 🤝 **Contribuir**  
 
